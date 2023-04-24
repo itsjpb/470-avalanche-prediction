@@ -1,0 +1,2 @@
+# Ignore geckodriver (webdriver) log files
+geckodriver.log
