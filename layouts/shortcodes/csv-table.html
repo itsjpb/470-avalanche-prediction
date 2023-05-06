@@ -1,0 +1,13 @@
+{{- $csvFilePath := .Get "csvFilePath" }}
+{{- $csvContent := readFile $csvFilePath }}
+{{- $csvLines := split $csvContent "\n" }}
+<table class="csv-table">
+{{- range $index, $line := $csvLines }}
+	<tr>
+	{{- $cells := split $line "," }}
+	{{- range $index2, $cell := $cells }}
+		<td>{{ $cell }}</td>
+	{{- end }}
+	</tr>
+{{- end }}
+</table>

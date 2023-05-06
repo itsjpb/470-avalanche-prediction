@@ -1,0 +1,24 @@
+name: AD470 Group 3
+enableToc: true
+openToc: true
+enableLinkPreview: true
+enableLatex: true
+enableCodeBlockTitle: true
+enableCodeBlockCopy: true
+enableCallouts: true
+enableSPA: true
+enableFooter: true
+enableContextualBacklinks: true
+enableRecentNotes: false
+enableGitHubEdit: false
+enableMermaid: true
+GitHubLink: https://jaohara.github.io/quartz-testing/tree/hugo/content
+search:
+  enableSemanticSearch: false
+  operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
+  operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
+description:
+  A Data Science practicum project involving Avalanche predictions. 
+page_title:
+  "🏔️ AD470 Practicum: Avalanche Prediction"
+

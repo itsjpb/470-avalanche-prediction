@@ -1,2 +1,11 @@
-# Ignore geckodriver (webdriver) log files
+.DS_Store
+public
+resources
+.idea
+content/.obsidian
+assets/indices/linkIndex.json
+assets/indices/contentIndex.json
+linkmap
+
+# ignore geckodriver (webdriver) log files
 geckodriver.log

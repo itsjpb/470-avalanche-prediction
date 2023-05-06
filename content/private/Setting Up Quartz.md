@@ -1,0 +1,21 @@
+- [jaohara/quartz-testing](https://github.com/jaohara/quartz-testing)
+- [jackyzha0/quartz](https://github.com/jackyzha0/quartz)
+
+# Tasks:
+- [x] Make a repo for quartz
+- [x] Manually copy the [official Quartz repo](https://github.com/jackyzha0/quartz) 
+- [x] Push the modified repo up to see if this is a valid way to add quartz to an existing project
+- [x] Figure out how the Github Actions are configured to build and deploy this
+- [x] Copy over existing [[AD470 Project]] directory to `./content/` in existing repo
+- [x] Add obsidian plugins and theming from `~/Dropbox/Documents/Notes` vault
+- [x] Create [[Using Hugo HTML Partials in Quartz|Hugo HTML Partial]] for tabular csv data
+- [x] Test to see if the table partial works when deploying
+- [x] Look up where custom styling is applied to the Quartz Vault (`./assets/styles`?)
+- [x] Add some theming to existing Quartz stylesheet
+- [ ] Figure out how to add Quartz to our existing project on a branch to merge into the existing `main` 
+- [x] Add ignored directories to Quartz project (`Vault Research`, etc.)
+- [x] Check to see if assets can be referenced from ignored directories (`.csv` datasets, images, etc) `->` hide assets or put in public directories based on whether this is possible
+	- This doesn't matter - I don't think non `.md` files are reachable via search, so `notes/csv` is good enough.
+- [ ] Take screenshots of how to open a new vault, and how to push to `hugo` branch
+- [ ] Make a Quick Start guide for using Obsidian on the repo and edit it in to `README.md`
+- [ ] Make [video for Sunday Check-in](https://canvas.seattlecolleges.edu/courses/12820/discussion_topics/105565)
