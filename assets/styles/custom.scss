@@ -36,6 +36,10 @@ $common-margin: 1rem;
   --search-background: #343434aa;
 }
 
+img {
+  border-radius: $common-border-radius;
+}
+
 // use updated border radius on elements that have an existing value
 header #search-icon, // search bar in header
 #search-container > div > *, // search box overlay
