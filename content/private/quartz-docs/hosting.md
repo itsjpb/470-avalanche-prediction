@@ -15,7 +15,7 @@ By default, GitHub disables workflows from modifying your files (for good reason
 
 Head to `Settings > Action > General > Workflow Permissions` and choose `Read and Write Permissions`
 
-![[notes/images/github-actions.png]]
+![[images/github-actions.png]]
 *Enable GitHub Actions*
 
 ### Enable GitHub Pages
@@ -25,7 +25,7 @@ Head to the 'Settings' tab of your forked repository and go to the 'Pages' tab.
 1. (IMPORTANT) Set the source to deploy from `master` (and not `hugo`) using `/ (root)`
 2. Set a custom domain here if you have one!
 
-![Enable GitHub Pages](/notes/images/github-pages.png)*Enable GitHub Pages*
+![Enable GitHub Pages](images/github-pages.png)*Enable GitHub Pages*
 
 ### Pushing Changes
 To see your changes on the internet, we need to push it them to GitHub. Quartz is a `git` repository so updating it is the same workflow as you would follow as if it were just a regular software project.

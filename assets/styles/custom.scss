@@ -1,5 +1,6 @@
 // Add your own CSS here!
 $common-border-radius: 8px;
+$common-margin: 1rem;
 
 :root {
   --light: #faf8f8;
@@ -58,6 +59,7 @@ table.csv-table {
   border-collapse: separate;
   border-radius: $common-border-radius;
   border-spacing: 0px;
+  margin-top: $common-margin;
   max-height: 1000px;
 
   tr:first-child { // .csv-table header row rules
