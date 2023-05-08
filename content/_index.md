@@ -11,6 +11,9 @@ This is the knowledge vault for Group 3's AD470 Practicum at [North Seattle Coll
 >
 > These secttions should maybe get broken out into their own pages ("Concepts and Definitions", "CSV Datasets", etc.) so that the link graph makes more sense
 
+
+Example edit
+
 # Concepts and Definitions
 Here are links to helpful concepts for understanding snow science, avalanches, and the conditions that create them.
 - [[notes/Avalanche|Avalanche]]
