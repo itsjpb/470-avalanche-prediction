@@ -7,8 +7,6 @@ enableToc: false
 
 This is the knowledge vault for Group 3's AD470 Practicum at [North Seattle College.](https://northseattle.edu/programs/application-development/application-development-bachelor-applied-science-bas-degree) We are using meterological and topographical data collected from various sources to make projections on the likelihood of an [[notes/Avalanche|avalanche]] happening based on the given conditions.
 
-Modified for example
-
 > [!note] Todo
 >
 > These secttions should maybe get broken out into their own pages ("Concepts and Definitions", "CSV Datasets", etc.) so that the link graph makes more sense

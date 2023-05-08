@@ -1,11 +1,3 @@
----
-title: "Markdown for Obsidian"
-tags:
-- obsidian
-- markdown
-- reference
----
-
 [Here are the official docs](https://help.obsidian.md/Editing+and+formatting/Basic+formatting+syntax), and here's a quick reference wrapped in an example codeblock:
 
 ```markdown
@@ -42,3 +34,6 @@ tags:
 
 >[!info]
 >These look cool but are kind of annoying to use
+
+
+#obsidian #markdown #quick-reference 
