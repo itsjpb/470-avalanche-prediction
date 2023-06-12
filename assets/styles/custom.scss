@@ -114,3 +114,11 @@ table {
     // border-right: 1px solid var(--gray)
   }
 }
+
+//custom jupyter-notebook shortcode
+// #jupyter-notebook {
+.jp-Notebook {
+  // background-color: var(--lightgray);
+  overflow: hidden;
+  color: red !important;
+}

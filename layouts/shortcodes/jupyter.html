@@ -1,0 +1,26 @@
+<!-- OLD APPROACH FOR DEMO IN VID
+<div id="jupyter-notebook-container"></div>
+<script src="https://cdn.jsdelivr.net/npm/@jupyterlab/notebook@2"></script>
+<script type="text/javascript">
+  window.addEventListener('DOMContentLoaded', function() {
+    const container = document.getElementById('jupyter-notebook-container');
+    const notebook = document.createElement('iframe');
+    notebook.src = '{{ .Get "path" | relURL }}';
+    notebook.style.width = '100%';
+    notebook.style.height = '600px';
+    container.appendChild(notebook);
+  });
+</script>
+-->
+{{ $path := .Get "path" | relURL }}
+
+<iframe 
+  class="jupyter-notebook-iframe"
+  frameborder="0"
+  height="px" 
+  id="jupyter-notebook"
+  onload="fitNotebook(event)"
+  src="{{ $path }}" 
+  width="100%" 
+>
+</iframe>
